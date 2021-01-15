@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Music</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <script src="../js/visualizer.js"></script>
+</head>
+
+<body>
+  <div class="bg img_music">
+    <div id="div1">
+      <nav class="navbar navbar-expand-lg bg-transparent ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <div>
+              <a href="../html/homepage.html">
+                <img src="../images/Logo.png" alt="Logo" id="logo">
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav1 nav justify-content-end">
+          <li class="nav-item">
+            <a id="margin" class="nav-link" href="../html/homepage.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a id="margin" class="nav-link" href="../html/Music.html"><strong>Music</strong></a>
+          </li>
+          <li class="nav-item">
+            <a id="margin" class="nav-link" href="../html/Video.html"><strong>Videos</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/Bio.html"><strong>Bio</strong></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- content -->
+    <div class="vz-wrapper">
+      <audio id="myAudio" src="../audio/phoebe.mp3" data-author="Phoebe Green" data-title="Easy Peeler"></audio>
+    
+      <div class="vz-wrapper -canvas">
+          <canvas id="myCanvas" width="800" height="400"> >> </canvas>
+      </div>
+    </div>
+
+  </div>
+  <!-- footer -->
+  <div id="footer">
+    &nbsp;
+    <a href="https://www.facebook.com/">
+      <i id="icon_size" class="fa fa-facebook icon"></i>
+    </a>
+    &nbsp;
+    <a href="https://www.instagram.com/?hl=en">
+      <i id="icon_size" class="fa fa-instagram icon"></i>
+    </a>
+    &nbsp;
+    <a href="https://twitter.com/?lang=en">
+      <i id="icon_size" class="fa fa-twitter icon"></i>
+    </a>
+    &nbsp;
+    © 2020, All Rights Reserved
+  </div>
+
+</body>
+
+</html>

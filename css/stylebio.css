@@ -1,0 +1,123 @@
+/* Body tag */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+/* Tain background div */
+#div1 {
+  background-image: url("../images/Bio.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+  /* parallax effect*/
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#div1 a:hover {
+  color: crimson;
+}
+
+#div1 a {
+  color: white;
+}
+
+/* The span for name green */
+#color {
+  color: crimson;
+}
+
+/* This is for the div of basic intro on bio page */
+#div3 {
+  color: white;
+  margin-top: 23%;
+  font-size: 50px;
+}
+
+/* This is for the two divs about the singer*/
+#div4 {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+
+#div5 {
+  /* The image used */
+  background-image: url("../images/Music page picture in music player and bio.PNG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* This is for the logo in the nav bar */
+#logo {
+  height: 90px;
+  width: 130px;
+}
+
+/* The below all are for the icons redirectng to particular social media */
+
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
+#footer {
+  position: fixed;
+  padding: 4px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 50px;
+  background: crimson;
+  color: white;
+}
+
+.scroll {
+  margin-left: 90%;
+  font-size: 15px;
+  color: crimson;
+  text-decoration: none;
+}
+
+.navbar-nav1 {
+  margin-left: auto;
+}
+#margin {
+  margin-right: 20px;
+}
+
+
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+#icon_size{
+  font-size:32px;
+  color: white;
+}
